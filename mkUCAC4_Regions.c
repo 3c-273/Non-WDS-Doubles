@@ -100,8 +100,8 @@ void openRawData(int i) {
   char df[64],
        fileName[8];
 
-  // Where the raw WDS file live on my machine. Adjust it to point to your own
-  // repository.
+  // Where the raw WDS files live on my machine. Adjust it to point to your
+  // own repository.
   static char* rawDir = "/science/astro/data/ucac4/data/";
   df[0] = 0;
   if (RAW) { fclose(RAW); }
